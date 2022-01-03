@@ -1,0 +1,31 @@
+.note {
+    display: flex;
+        background-color: white;
+        border-radius: 7px;
+        padding: 10px;
+        height: 100px;
+        width: 295px;
+     font-size:1rem !important;
+     margin-bottom:20px ;
+     box-shadow: 2px 4px 14px #777; 
+    }
+    .note:hover{
+    transform:scale(1.034);
+    box-shadow: 2px 4px 20px black;
+    }
+    .note img{
+        height: 80px;
+    }
+    .note p{
+        font-size: 14px !important;
+    }
+    .note > button{
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: darkorange;
+    margin-top: 80px;
+    position: absolute;
+    right: 10px;
+    }
+    
